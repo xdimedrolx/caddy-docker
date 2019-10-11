@@ -1,4 +1,4 @@
-IMAGE ?= xdimedrolx/docker-caddy
+IMAGE ?= xdimedrolx/caddy
 LABEL ?= 1.0.3-no-stats
 
 .PHONY: all
