@@ -1,0 +1,7 @@
+*:8080 {
+  root /app
+  gzip
+  tls off
+  errors stderr
+  log stdout
+}
