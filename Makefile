@@ -9,4 +9,4 @@ build:
 	docker build -t $(IMAGE):$(LABEL) .
 
 push:
-	docker push $(IMAGE)
+	docker push $(IMAGE):$(LABEL)
